@@ -12,6 +12,7 @@ define Package/luci-app-minieap
 	SECTION:=luci
 	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
+	DEPENDS:= +minieap
 	TITLE:=minieap 802.1X Client for LuCI
 	PKGARCH:=all
 endef
